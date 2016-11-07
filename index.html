@@ -6,9 +6,48 @@
         <script src="insult.js"></script>
     </head>
 
+    <style>
+      body {
+        font-family: Verdana, Arial;
+        background-color: #EEE;
+        color: #333;
+      }
+
+      .insult-content {
+        padding: 10px 0px;
+      }
+
+      .button {
+        display: inline-block;
+        padding: 10px 15px;
+        background-color: #333;
+        color: white;
+        text-transform: uppercase;
+        font-size: 12px;
+        border-radius: 3px;
+        font-weight: bold;
+        cursor: pointer;
+      }
+
+      .button:hover {
+        background-color: #444;
+      }
+
+      .insult-content {
+        height: 60px;
+      }
+    </style>
+
     <body>
         <div>
-            <p class="insult-content">Thou </p>
+            <h2>Insulter</h2>
+            <div class="insult-content">
+              <p>
+                <span id="insult-data"></span>
+              <p>
+            </div>
+            <p>http://bit.ly/2fqXO25</p>
+            <div id="insult-button" class="button">Insult me!</div>
         </div>
     </body>
 </html>
