@@ -1,1 +1,1 @@
-Pod IP <?php echo $_SERVER['SERVER_ADDR']; ?>
+Pod IP bug <?php echo $_SERVER['SERVER_ADDR']; ?>
